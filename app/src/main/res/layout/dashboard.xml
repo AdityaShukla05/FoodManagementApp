@@ -27,7 +27,7 @@
         android:paddingBottom="8dp"
         android:text="@string/add_item"
         android:textAllCaps="false"
-        android:textColor="@color/yellow"
+        android:textColor="@color/btn_color"
         android:textSize="28sp" />
 
 
