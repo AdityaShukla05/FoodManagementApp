@@ -7,5 +7,10 @@
     tools:context=".MainActivity">
 
     <include layout="@layout/dashboard"/>
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
