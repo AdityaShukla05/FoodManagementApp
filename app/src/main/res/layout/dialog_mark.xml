@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/dialog_mark">
+
+    <ImageButton
+        android:id="@+id/btn_closee"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/ic_close"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_alignParentRight="true"
+        />
+
+    <Button
+        android:id="@+id/btn_completed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:layout_marginBottom="36dp"
+        android:background="@null"
+        android:layout_below="@id/btn_closee"
+        android:drawableTop="@drawable/ic_action_tick"
+        android:drawablePadding="10dp"
+        android:text="Marked this finished and Add to shopping list"
+        android:textAllCaps="false"
+        android:layout_centerVertical="true"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_watchrecp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_action_youtube"
+        android:layout_below="@id/btn_completed"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="96dp"
+        android:background="@null"
+        android:drawablePadding="10dp"
+        android:text="Watch recipe video"
+        android:textAllCaps="false"
+        android:textSize="24sp" />
+</RelativeLayout>

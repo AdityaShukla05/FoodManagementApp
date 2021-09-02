@@ -6,24 +6,25 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="356dp"
-        android:layout_height="350dp"
+        android:layout_width="320dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="60dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/l5y"
-        android:layout_margin="84dp"/>
+        />
 
     <Button
-        android:id="@+id/btn_add"
-        android:background="@drawable/bg_btn_add"
+        android:id="@+id/btn_adddd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/logo"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="24dp"
-        android:layout_marginTop="141dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_btn_add"
         android:fontFamily="sans-serif"
         android:paddingLeft="60dp"
         android:paddingTop="8dp"
+        android:layout_centerHorizontal="true"
         android:paddingRight="60dp"
         android:paddingBottom="8dp"
         android:text="@string/add_item"

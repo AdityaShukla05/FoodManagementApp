@@ -8,5 +8,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#fece2f</color>
-    <color name="dark_blue">#00008b</color>
+    <color name="dialog_mark">#85FECE2F</color>
+    <color name="dark_blue">#fece2f</color>
+    <color name="bg_drop_row_dark">#F2FECE2F</color>
+    <color name="bg_drop_row_light">#B3FECE2F</color>
+    <color name="bg_item_finished">#32CD32</color>
+    <color name="red">#FC1504</color>
+    <color name="lred">#85FC1504</color>
+    <color name="app_yellow">#fece2f</color>
+    <color name="dialog_add">#FECE2F</color>
 </resources>
+    <!--    // white hex code is there in darkblue for toolbar in dashboard-->

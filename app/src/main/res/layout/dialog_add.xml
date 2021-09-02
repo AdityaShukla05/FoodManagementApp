@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_add"
+    >
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_add_drop"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="28sp"
+        android:paddingLeft="10dp"
+        />
+
+    <ImageButton
+        android:background="@null"
+        android:id="@+id/btn_closee"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_close"
+        android:layout_alignBottom="@id/tv_title"
+        android:layout_alignTop="@id/tv_title"
+        android:layout_alignParentRight="true"
+        />
+
+    <EditText
+        android:id="@+id/et_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginTop="0dp"
+        android:hint="@string/hint_add_item"
+        android:inputType="textVisiblePassword"
+        android:padding="16dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/tv_expirydt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_item"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="10dp"
+        android:text="@string/str_exp"
+        android:textSize="28sp" />
+
+    <DatePicker
+        android:id="@+id/fmv_date"
+        android:layout_width="match_parent"
+        android:layout_height="378dp"
+        android:layout_below="@id/tv_expirydt"
+        android:layout_marginTop="-2dp" />
+
+    <Button
+        android:id="@+id/btn_add_itt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fmv_date"
+        android:text="@string/add_it"
+        android:background="@color/white"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        />
+
+
+</RelativeLayout>

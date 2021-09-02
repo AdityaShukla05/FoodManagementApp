@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">MyKitchen</string>
     <string name="add_item">Add Item</string>
+    <string name="str_add_drop">Add an Item:</string>
+    <string name="hint_add_item">Enter Item Name</string>
+    <string name="add_it">Add it</string>
+    <string name="notifmsg">is about to expire</string>
+    <string name="str_exp">Select Expiry Date:</string>
+    <string name="add_items">Add Items</string>
 </resources>
